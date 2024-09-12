@@ -1,0 +1,77 @@
+
+
+/* Seletores por tipo */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Seletores por id */
+#nome, #email {
+    width: 100%;
+    padding: 8px;
+}
+
+/* Seletores por classe */
+.header, .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #444;
+}
+
+.menu li {
+    margin: 10px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+}
+
+.grid-item img {
+    max-width: 100%;
+}
+
+/* Transições */
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff6347;
+}
+
+/* Flexbox */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
